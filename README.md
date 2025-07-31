@@ -1,37 +1,49 @@
-🏠 House Rental App
-A full-stack real estate application built using the MERN stack (MongoDB, Express.js, React, Node.js), with Firebase for image uploads and Redux Toolkit for authentication and user state management. This platform allows users to browse, list, and manage rental properties with a sleek and modern UI powered by Tailwind CSS.
+# 🏠 House Rental App
 
-🚀 Features
-🔐 User authentication (Register/Login with JWT)
-🏘️ Create, update, and delete property listings
-🖼️ Upload listing images with Firebase Storage
-👤 User profile management (edit profile, delete account)
-🧭 View listing details with image slider
-📅 Booking or availability calendar (if applicable)
-🔍 Filter listings (for sale, for rent, offers)
-🎨 Responsive and modern UI using Tailwind CSS
-🛠️ Tech Stack
-Frontend:
+A full-stack real estate application built using the **MERN stack** (MongoDB, Express.js, React, Node.js), with **Firebase** for image uploads and **Redux Toolkit** for authentication and user state management. This platform allows users to browse, list, and manage rental properties with a sleek and modern UI powered by **Tailwind CSS**.
 
-React
-Redux Toolkit
-React Router
-Tailwind CSS
-Swiper (for image sliders)
-Backend:
+---
 
-Node.js
-Express.js
-MongoDB (Mongoose ODM)
-JWT for authentication
-Firebase SDK (for file uploads)
-Other Tools:
+## 🚀 Features
 
-Vite (React bundler)
-Dotenv for environment variables
-Toastify for alerts
-Firebase Storage for image hosting
-📁 Folder Structure (Brief)
+- 🔐 User authentication (Register/Login with JWT)
+- 🏘️ Create, update, and delete property listings
+- 🖼️ Upload listing images with Firebase Storage
+- 👤 User profile management (edit profile, delete account)
+- 🧭 View listing details with image slider
+- 📅 Booking or availability calendar (if applicable)
+- 🔍 Filter listings (for sale, for rent, offers)
+- 🎨 Responsive and modern UI using Tailwind CSS
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**:
+- React
+- Redux Toolkit
+- React Router
+- Tailwind CSS
+- Swiper (for image sliders)
+
+**Backend**:
+- Node.js
+- Express.js
+- MongoDB (Mongoose ODM)
+- JWT for authentication
+- Firebase SDK (for file uploads)
+
+**Other Tools**:
+- Vite (React bundler)
+- Dotenv for environment variables
+- Toastify for alerts
+- Firebase Storage for image hosting
+
+---
+
+## 📁 Folder Structure (Brief)
+
+```
 house-rental-app/
 │
 ├── backend/               # Node.js + Express backend
@@ -49,28 +61,68 @@ house-rental-app/
 ├── .env                   # Environment variables
 ├── README.md              # Project documentation
 └── package.json           # Project dependencies
-🔧 Setup Instructions
-1. Clone the repo
-git clone https://github.com/parthdholariya98/house-rental-app.git
+```
+
+---
+
+## 🔧 Setup Instructions
+
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/yourusername/house-rental-app.git
 cd house-rental-app
-2. Backend Setup
+```
+
+### 2. Backend Setup
+
+```bash
 cd backend
 npm install
-Create a .env file:
+```
 
+Create a `.env` file:
+
+```
 PORT=5000
-MONGO_URI= "mongodb+srv://parthdholariya98:parth123@cluster0.mjoh6yx.mongodb.net/"
+MONGO_URI=your_mongodb_connection
+JWT_SECRET=your_jwt_secret
+```
 
 Start the backend:
 
+```bash
 npm start
-3. Frontend Setup
+```
+
+### 3. Frontend Setup
+
+```bash
 cd client
 npm install
+```
+
+Set up `.env` file for Firebase:
+
+```
+VITE_FIREBASE_API_KEY=your_api_key
+VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
+VITE_FIREBASE_PROJECT_ID=your_project_id
+VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
+VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
+VITE_FIREBASE_APP_ID=your_app_id
+```
+
 Run the frontend:
 
+```bash
 npm run dev
-📸 Screenshots
+```
+
+---
+
+## 📸 Screenshots
+
 <img width="1903" height="840" alt="Screenshot 2025-07-31 155327" src="https://github.com/user-attachments/assets/5a3e9eb4-6336-490c-9d60-9fc68ac8cf85" />
 
 <img width="1889" height="914" alt="Screenshot 2025-07-31 155530" src="https://github.com/user-attachments/assets/ef8b63da-4535-4d62-b295-5c282b979710" />
@@ -79,14 +131,24 @@ npm run dev
 
 <img width="1856" height="826" alt="Screenshot 2025-07-31 160014" src="https://github.com/user-attachments/assets/6633a0da-2467-4790-9888-561ae3779203" />
 
+---
 
+## ✨ Future Improvements
 
+- Booking system or calendar integration
+- Admin dashboard for managing users/listings
+- Maps integration using Google Maps API
+- Chat between tenants and owners
 
-✨ Future Improvements
-Booking system or calendar integration
-Admin dashboard for managing users/listings
-Maps integration using Google Maps API
-Chat between tenants and owners
-🧑‍💻 Author
-Parth Dholariya
-GitHub: https://github.com/parthdholariya98/house-rental-app.git
+---
+
+## 🧑‍💻 Author
+
+**Parth Dholariya**  
+GitHub: [@yourusername](https://github.com/yourusername)
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).

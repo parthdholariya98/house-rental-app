@@ -102,17 +102,6 @@ cd client
 npm install
 ```
 
-Set up `.env` file for Firebase:
-
-```
-VITE_FIREBASE_API_KEY=your_api_key
-VITE_FIREBASE_AUTH_DOMAIN=your_auth_domain
-VITE_FIREBASE_PROJECT_ID=your_project_id
-VITE_FIREBASE_STORAGE_BUCKET=your_storage_bucket
-VITE_FIREBASE_MESSAGING_SENDER_ID=your_sender_id
-VITE_FIREBASE_APP_ID=your_app_id
-```
-
 Run the frontend:
 
 ```bash
@@ -145,10 +134,6 @@ npm run dev
 ## 🧑‍💻 Author
 
 **Parth Dholariya**  
-GitHub: [@yourusername](https://github.com/yourusername)
+GitHub: [@yourusername](https://github.com/parthdholariya98/house-rental-app.git)
 
----
 
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).

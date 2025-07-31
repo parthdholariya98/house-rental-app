@@ -134,6 +134,6 @@ npm run dev
 ## 🧑‍💻 Author
 
 **Parth Dholariya**  
-GitHub: [@yourusername](https://github.com/parthdholariya98/house-rental-app.git)
+GitHub: [@parth-dholariya](https://github.com/parthdholariya98/house-rental-app.git)
 
 
